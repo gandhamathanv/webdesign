@@ -1,0 +1,93 @@
+/* BACKGROUND image */
+
+.bg {
+    /* The image used */
+    background-image: url("../image/martin-adams-YA-DFlSzXBE-unsplash.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    display: table;
+    margin: auto;
+}
+
+nav {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: sans-serif;
+    color: #444;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.res {
+    font-size: xx-large;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+
+/* box  */
+
+.d1,
+.d2,
+.d3,
+.d4,
+.d5,
+.d6 {
+    border: 1px solid;
+    width: 20%;
+    margin-right: auto;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+.d1:hover,
+.d2:hover,
+.d3:hover,
+.d4:hover,
+.d5:hover,
+.d6:hover {
+    background-color: black;
+    color: white;
+}
+
+a span {
+    display: none;
+    position: absolute;
+    color: #fff;
+    background-color: #999;
+    padding: 5px;
+    width: 1250px;
+}
+
+a {
+    position: relative;
+    float: center;
+}
+
+a:hover span {
+    display: block;
+    text-align: center;
+    margin-left: 400px;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: #fff
+}
